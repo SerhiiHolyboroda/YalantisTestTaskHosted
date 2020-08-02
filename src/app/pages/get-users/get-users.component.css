@@ -1,0 +1,57 @@
+.Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.m01 {
+  color: gray;
+}
+
+.m02 {
+  color: gray;
+}
+
+.m03 {
+  color: blue;
+}
+
+.m04 {
+  color: blue;
+}
+
+.m05 {
+  color: blue;
+}
+
+.m06 {
+  color: blue;
+}
+
+.m07 {
+  color: green;
+}
+
+.m08 {
+  color: green;
+}
+
+.m09 {
+  color: green;
+}
+
+.m10 {
+  color: green;
+}
+
+.m11 {
+  color: red;
+}
+
+.m12 {
+  color: red;
+}
+/*# sourceMappingURL=get-users.component.css.map */

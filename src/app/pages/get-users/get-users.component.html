@@ -1,0 +1,15 @@
+<div class="reset">
+  <div class="reset_button" (click)="getUsers()">reset</div>
+</div>
+<div *ngFor="let user of allUsers , let i = index  ">
+
+ 
+    <div class="Container" > 
+ 
+    <div class="m{{ user.id}}">{{  user.id}}</div>
+    <div class="m{{ user.firstName }}">{{  user.firstName}}</div>
+    <div class="m{{   user.lastName }}">{{  user.lastName}}</div>
+    <div class="m{{  user.dob | slice : 5 : 7 }}"  id="{{  user.dob | slice : 5 : 7 }}" (mouseover)=" HideUsers($event.target.id)"  >{{  user.dob | slice : 5 : 7 }}  </div>
+ 
+  </div> </div>
+ 
